@@ -13,7 +13,10 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "sourceMap": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+    },
     "rootDir": ".",
     "jsx": "react-jsx",
     "allowJs": true,
