@@ -13,18 +13,20 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "sourceMap": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"],
-    },
+    "baseUrl": ".",
     "rootDir": ".",
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "paths":{
+      "@/*":[
+        "src/*"
+      ]
+    }
   },
-  "include": ["./src", "./types"],
+  "include": ["./src", "./types","src/**/*.scss"],
   "compileOnSave": false
 }

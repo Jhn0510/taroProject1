@@ -8,7 +8,7 @@ import { useEffect, useState } from "react"
 import './login.scss'
 
 
-const login = () => {
+const Login = () => {
   const dispatch = useAppDispatch();
   const [count, setCount] = useState(60);
   const [timer, setTimer] = useState(false);
@@ -208,7 +208,7 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
 
 
 
