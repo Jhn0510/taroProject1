@@ -5,6 +5,7 @@ export default defineAppConfig({
     'pages/login/login',
     'pages/contribute/contribute',
     'pages/my/my',
+    'pages/notice/notice',
   ],
 
   window: {
